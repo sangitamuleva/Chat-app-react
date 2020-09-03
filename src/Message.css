@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.message{   
+
+    width: fit-content;
+    
+}
+.message__user{
+    margin-left: auto;
+    text-align: left;
+    color: white !important;
+   
+}
+.message_usercard{
+    background-color: #2E4053 !important;
+    color: white !important;
+    box-shadow: -5px 1px 36px 6px rgba(0,0,0,0.75) !important;
+    -webkit-box-shadow: -5px 1px 36px 6px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: -5px 1px 36px 6px rgba(0,0,0,0.75) !important;
+    padding:20px;
+    margin: 20px;
+    
+    border-radius: 51px 0px 50px 51px;
+    -webkit-border-radius: 51px 0px 50px 51px;
+    -moz-border-radius: 51px 0px 50px 51px;
+
+    font-family: 'Indie Flower', cursive !important;
+
+}
+.message_guestcard{
+    background-color: #5D6D7E  !important;
+    color: white !important;
+    padding:20px;
+    margin: 20px;
+  
+    border-radius: 0px 51px 50px 51px;
+    -webkit-border-radius: 0px 51px 50px 51px;
+    -moz-border-radius: 0px 51px 50px 51px;
+
+    font-family: 'Indie Flower', cursive !important;
+    box-shadow: -5px 1px 36px 6px rgba(0,0,0,0.75) !important;
+    -webkit-box-shadow: -5px 1px 36px 6px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: -5px 1px 36px 6px rgba(0,0,0,0.75) !important;
+
+    
+}
+
+.message__username{
+    color: #ECF0F1;
+    font-weight: 100;
+}

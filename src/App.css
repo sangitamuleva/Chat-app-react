@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+  background-color: #212F3D !important;
+}
+.App {
+ 
+}
+.app_header{
+  display: flex;
+  padding-left:100px;
+  position: fixed;
+  background-color: #283747;
+  width: 100%;
+  box-shadow: -2px 16px 6px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 16px 6px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 16px 6px -6px rgba(0,0,0,0.75);
+
+  z-index: 1;
+}
+
+.app_logoheader{
+  
+  font-family: 'Indie Flower', cursive !important;
+  color:white;
+  text-shadow: -2px 6px 4px rgba(0,0,0,0.6);
+  padding-left:10px;
+}
+.app__form{
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1;
+  padding:10px;
+  
+  color: white !important;
+  background-color: #283747;
+}
+.app__formControls{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app__input{
+  flex: 1;
+}
+.app__iconButton{
+  flex: 0;
+  margin: 5px;
+}
+.app__iconButton:hover{
+  height:50px;
+  width: 50px;
+}
+.app_imglogo{
+  margin-top:10px;
+  height: 50px;
+  width: 50px;
+}
+.app_bodymsg{
+  padding-top: 80px !important;
+  padding-bottom: 100px !important;
+}
